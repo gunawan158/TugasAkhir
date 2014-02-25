@@ -1,0 +1,43 @@
+/* drop down menu - Main Navigation */
+
+.nav {
+	display: block;
+	padding: 0;
+	margin: 0;
+	height: 33px;
+	z-index: 100;
+ 	position: relative;
+	width: 100%;
+	list-style: none;
+	text-align: center;
+}
+
+.nav li a {
+	float: left;
+	height: 23px;
+	padding: 0 15px;
+	padding-top: 9px;
+	color: #FFF;
+	font-size: 0.8em;
+	margin-left: 1px;
+	margin-Right: 0px;
+	text-decoration:none;
+	display:block;
+}
+
+.nav li a:hover {
+	background: #b8f1d6;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,102 @@
+#csslogin {
+	margin-top:400px;
+	font-size: 14px;
+	font-family: Arial, Verdana, sans-serif;
+	font-weight: bold;
+	
+}
+
+#csslogin table {
+	background: linear-gradient(to bottom, #DDD 0%, #c0bebf 100%);
+}
+
+#cssmenu ul,
+
+#cssmenu a {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu {
+  background: linear-gradient(to bottom, #f2edea 0%, #c0bebf 100%);
+  font-weight: 600;
+  height: 52px;
+  width: auto;
+}
+
+#cssmenu a {
+color: #666666;
+display: inline-block;
+font-family: Arial, Verdana, sans-serif;
+font-size: 12px;
+line-height: 52px;
+padding: 0 28px;
+text-decoration: none;
+}
+
+#cssmenu ul {
+  list-style: none;
+}
+
+#cssmenu > ul > li {
+  float: left;
+}
+
+#cssmenu > ul > li:hover > a {
+  color: white;
+  background: #273038;
+}
+
+#cssmenu .has-sub {
+  z-index: 1;
+}
+
+#cssmenu .has-sub:hover > ul {
+  display: block;
+}
+
+#cssmenu .has-sub ul {
+  display: none;
+  position: absolute;
+  width: 200px;
+}
+
+#cssmenu .has-sub ul li a {
+  background: #3c4a56;
+  color: white;
+  display: block;
+  line-height: 160%;
+  padding: 15px 10px;
+}
+
+#cssmenu .has-sub ul li:hover a {
+  background: #273038;
+}
+
+#cssmenu .has-sub .has-sub:hover > ul {
+  display: block;
+}
+
+#cssmenu .has-sub .has-sub ul {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+
+#cssmenu .has-sub .has-sub ul li a {
+  background: #3c4a56;
+}
+
+#cssmenu .has-sub .has-sub ul li a:hover {
+  background: #273038;
+}
+
+#footer {
+  background: linear-gradient(to bottom, #f2edea 0%, #c0bebf 100%);
+  font-weight:200;
+  height: 15px;	
+  width: auto;
+  text-align:center;
+  font-size:12px;
+}
